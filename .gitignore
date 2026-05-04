@@ -1,0 +1,38 @@
+# ESP-IDF build artifacts
+**/build/
+**/sdkconfig
+**/sdkconfig.old
+**/compile_commands.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# PyInstaller
+*.manifest
+*.spec.backup
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+temp/
+
+# Generated binaries
+*.bin
+*.elf
+*.map
